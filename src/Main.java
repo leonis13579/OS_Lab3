@@ -57,7 +57,7 @@ public class Main {
 
             for (int i = 0; i < 5; i++) {
                 Threads[i].start();
-                Thread.sleep(1);
+                Thread.sleep(10);
             }
 
             while (!check()){}
